@@ -52,7 +52,7 @@ div.top {
 }
 
 nav {
-    width: 1600px;
+    width: 100%;
     height: 80px;
     display: flex;
     flex-direction: row;
@@ -116,7 +116,7 @@ nav .designed-by {
 }
 
 header img {
-    width: 1600px;
+    width: 100%;
     height: 780px;
     object-fit: cover;
 }
@@ -189,6 +189,12 @@ article {
     top: 920px;
     display: flex;
     justify-content: space-evenly;
+}
+
+.article-container {
+    width: 100%;
+    display: flex;
+    background-color: red;
 }
 
 .article-image {
@@ -678,6 +684,11 @@ footer input::placeholder {
     line-height: 140%;
     color: #BDBDBD;
     padding: 10px;
+}
+
+footer input {
+    color: #BDBDBD;
+
 }
 
 .form {
