@@ -130,7 +130,7 @@ header .orange-circle {
     top: 92px;
 }
 
-header h2 {
+header h1 {
     position: absolute;
     width: 500.31px;
     height: 400px;
@@ -145,7 +145,7 @@ header h2 {
     color: #FFFFFF;
 }
 
-header h2 .fav-text {
+header h1 .fav-text {
     color: #FFEE2E;
 }
 
@@ -167,6 +167,13 @@ header h2 .fav-text {
     text-align: center;
     text-transform: uppercase;
     color: white;
+}
+
+.orange-button:hover {
+    background: #E47209;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+
+
 }
 
 /* article section */
@@ -391,6 +398,14 @@ article {
     line-height: 130%;
     color: #333B41;
     text-align: center;
+}
+
+.link-fund {
+    text-decoration: none;
+    color: #333B41;
+    text-decoration: underline;
+    text-decoration-color: #FE9013;
+
 }
 
 .how-it-works {
