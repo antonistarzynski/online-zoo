@@ -6,14 +6,11 @@
 	.st0{fill:url(#SVGID_1_);}
 	.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-width:0.3;}
 </style>
-<g>
-	
-		<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="261.2236" y1="-340.8763" x2="335.9716" y2="-374.0994" gradientTransform="matrix(1 0 0 -1 -266.5 -326)">
-		<stop  offset="0" style="stop-color:#F9804B"/>
-		<stop  offset="1" style="stop-color:#FE9013"/>
-	</linearGradient>
-	<circle class="st0" cx="31" cy="31" r="31"/>
-	<path class="st1" d="M35,26.89l-0.1-0.1l-0.1,0.1l-0.14,0.14l-0.11,0.11l0.11,0.11l3.6,3.51H23h-0.15v0.15v0.19v0.15H23h15.25
-		l-3.6,3.51l-0.11,0.11l0.11,0.11l0.14,0.14l0.1,0.1l0.1-0.1l4.11-4L39.22,31l-0.11-0.11L35,26.89z"/>
-</g>
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="288.8515" y1="428.6901" x2="363.5995" y2="461.9132" gradientTransform="matrix(1 0 0 1 -266.5 -346)">
+	<stop  offset="0" style="stop-color:#F9804B"/>
+	<stop  offset="1" style="stop-color:#FE9013"/>
+</linearGradient>
+<circle class="st0" cx="58.6" cy="98.8" r="31"/>
+<path class="st1" d="M35,26.9l-0.1-0.1l-0.1,0.1L34.7,27l-0.1,0.1l0.1,0.1l3.6,3.5H23h-0.1v0.1v0.2v0.1H23h15.2l-3.6,3.5l-0.1,0.1
+	l0.1,0.1l0.1,0.1l0.1,0.1l0.1-0.1l4.1-4l0.1-0.1l-0.1-0.1L35,26.9z"/>
 </svg>
