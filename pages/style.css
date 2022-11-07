@@ -197,6 +197,14 @@ article {
     background-color: red;
 }
 
+.flower-1 {
+    position: absolute;
+    width: 293px;
+    height: 605px;
+    left: 1400px;
+    top: 792px;
+}
+
 .article-image {
 
     width: 609px;
@@ -290,15 +298,25 @@ article {
     height: 366px;
     border-radius: 5px 5px 0 0;
     object-fit: cover;
-
-
     display: block;
     margin: 0 auto;
+}
 
+.flower-2 {
+    position: absolute;
+    width: 880px;
+    height: 460px;
+    left: -588px;
+    top: 2149px;
+}
 
-
-
-
+.flower-3 {
+    position: absolute;
+    width: 368px;
+    height: 275px;
+    right: 0px;
+    top: 2334px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 
 .food-style {
@@ -589,6 +607,15 @@ article {
     border-radius: 5px;
     color: white;
     text-transform: uppercase;
+}
+
+.flower-4 {
+    position: absolute;
+    width: 300.92px;
+    height: 295.45px;
+    left: 1310px;
+    top: 4297.88px;
+    transform: matrix(-0.86, -0.5, -0.5, 0.86, 0, 0);
 }
 
 /*footer*/
