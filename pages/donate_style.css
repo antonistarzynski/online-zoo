@@ -1,3 +1,23 @@
+nav .left-side-menu h1 {
+    font-weight: 400;
+    font-size: 19.0145px;
+    line-height: 120%;
+    text-align: center;
+    color: #FFFFFF;
+    left: 16.75px;
+    top: 0.55px;
+    position: relative;
+    /*border: 1.18841px solid #FFFFFF;*/
+}
+
+.bamboo {
+    position: absolute;
+    width: 82px;
+    height: 52px;
+    left: 220px;
+    top: 14px;
+}
+
 header img {
     position: absolute;
     height: 390px;
