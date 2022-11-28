@@ -23,9 +23,10 @@
 
 
                     <div class="left logo">
-                        <h1>PetStory<br>online</h1>
-                        <img class="bamboo" src="../assets/icons/frame_logo.svg" alt="bamboo stick">
-                        <!--<a href="./index.html"><img src="../assets/icons/pet_story_online.svg" alt="logo"></a>-->
+                        <a href="./index.html">
+                            <h1>PetStory<br>online</h1>
+                            <img class="bamboo" src="../assets/icons/frame_logo.svg" alt="bamboo stick">
+                        </a>
                     </div>
 
 
@@ -83,64 +84,27 @@
 
 
                 <p>Amount</p>
-                <div class="amount-box">
-                    <input class="input-range" type="range" min="0" max="7" value="0" step="1" list="amount">
 
-                </div>
+                <input type="range" min="0" max="7" value="0" step="1" list="amount"
+                    onchange="updateTextInput(this.value);">
 
-                <div class="money-range">
+                <datalist id="amount">
+                    <option value="5000$" label="number 0">$5000</option>
+                    <option value="2000$" label="number 0">$2000</option>
+                    <option value="1000$" label="number 0">$1000</option>
+                    <option value="500$" label="number 0">$500</option>
+                    <option value="250$" label="number 0">$250</option>
+                    <option value="100$" label="number 0">$100</option>
+                    <option value="50$" label="number 0">$50</option>
+                    <option value="25$" label="number 0">$25</option>
+                </datalist>
 
-                    <ul>
-                        <li>
-                            <option value="0" label="5000$">
-                                <img src="../assets/icons/dollar.svg" alt="dollar sign">5000
-                            </option>
-                        </li>
+                <input type="text" id="textInput" placeholder="Another amount" pattern="\d*" maxlength="4" value="100">
 
-                        <li>
-                            <option value="0" label="2000$">
-                                <img src="../assets/icons/dollar.svg" alt="dollar sign">2000
-                            </option>
-                        </li>
 
-                        <li>
-                            <option value="0" label="1000$">
-                                <img src="../assets/icons/dollar.svg" alt="dollar sign">1000
-                            </option>
-                        </li>
 
-                        <li>
-                            <option value="0" label="500$">
-                                <img src="../assets/icons/dollar.svg" alt="dollar sign">500
-                            </option>
-                        </li>
 
-                        <li>
-                            <option value="0" label="250$">
-                                <img src="../assets/icons/dollar.svg" alt="dollar sign">250
-                            </option>
-                        </li>
 
-                        <li>
-                            <option value="0" label="50$">
-                                <img src="../assets/icons/dollar.svg" alt="dollar sign">50
-                            </option>
-                        </li>
-
-                        <li>
-                            <option value="0" label="25$">
-                                <img src="../assets/icons/dollar.svg" alt="dollar sign">25
-                            </option>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="another-amount">
-                    <input type="text" placeholder="Another amount" pattern="\d*" maxlength="4">
-                    <img src="../assets/icons/dollar_grey.svg" alt="dollar sign">
-                    <span></span>
-
-                </div>
                 <div class="how-often">
                     <div>
                         <input type="radio" id="monthly" name="how-often" value="monthly" class="often-radio">
@@ -212,7 +176,7 @@
 
 
     </footer>
-
+    <script src="./donate_script.js"></script>
 </body>
 
 </html>

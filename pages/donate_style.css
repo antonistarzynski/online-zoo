@@ -151,26 +151,23 @@ main p {
     appearance: none;
 }
 
-input[type="range"]::-webkit-slider-thumb {
-    -webkit-appearance: none;
-}
+
+
+
 
 input[type=range]::-webkit-slider-thumb {
     border: 0.5px solid #FE9013;
-
     height: 22.95px;
     width: 22.95px;
     border-radius: 100%;
     background: none;
     cursor: pointer;
     -webkit-appearance: none;
-
     border-width: 15px;
     border-style: double;
-
-
-
 }
+
+
 
 
 
@@ -184,7 +181,7 @@ input[type=range]::-webkit-slider-thumb {
     text-decoration: none;
     display: flex;
     justify-content: space-between;
-    padding-left: 30px;
+    padding-left: 60px;
 
 
 }
@@ -195,7 +192,7 @@ input[type=range]::-webkit-slider-thumb {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding-right: 70px;
+    padding-right: 65px;
     font-weight: 500;
     font-size: 26px;
     line-height: 140%;
