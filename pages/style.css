@@ -5,6 +5,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+
 }
 
 html {
@@ -1019,3 +1020,151 @@ input::placeholder {}
 }
 
 .footer-author a {}
+
+
+
+
+@media screen and (max-width: 1599px) {
+
+
+    /* top navigation bar */
+
+    .nav-container {
+        width: 98%;
+        justify-content: center;
+    }
+
+    .navigation {
+        width: 600px;
+    }
+
+    .navigation a {
+        margin-right: 3em;
+    }
+
+    .designed-by {
+        width: 200px;
+    }
+
+    .top {
+        height: 504px;
+    }
+
+    .circle {
+        width: 367px;
+        height: 367px;
+    }
+
+    .circle h2 {
+        font-size: 85px;
+        line-height: 75%;
+    }
+
+    /* top photo panda section */
+
+    .top-container {
+        width: 100%;
+    }
+
+    .circle {
+        margin-left: -2em;
+        margin-top: -1em;
+    }
+
+    .right-side button {
+        margin: 3em 2em 0 5em;
+    }
+
+
+    /* article */
+
+    .article {
+        height: 590px;
+
+    }
+
+    .article-container {
+        width: 94%;
+    }
+
+    .art-left {
+        width: 100%;
+
+    }
+
+    .art-right {
+        padding-left: 2em;
+        height: 100%;
+    }
+
+
+    /* animals section */
+
+    .animals-container {
+        width: 94%;
+        flex-direction: column;
+        height: 790px;
+    }
+
+    .animals-cards {
+        height: 790px;
+    }
+
+    .card {
+        width: 294px;
+        height: 354px;
+    }
+
+    .circle-arr {
+        display: none;
+    }
+
+
+    /* pick a friend */
+
+    .pick {
+        height: 876px;
+    }
+
+    .pick-container {
+        width: 94%;
+        height: 796px;
+        padding: 0 45px;
+    }
+
+    .pick-scheme {
+        padding: 0 10px;
+    }
+
+
+    /* testimonials */
+
+    .testimonials {
+        height: 850px;
+    }
+
+    .testimonials-container {
+        width: 94%;
+        flex-wrap: wrap;
+    }
+
+    .usersOp {
+        width: 100%;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+
+    .userOp {
+        margin-bottom: 20px;
+    }
+
+
+
+}
+
+
+/* testimonials */
+
+.footer-container {
+    width: 94%;
+}
